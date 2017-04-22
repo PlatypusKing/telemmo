@@ -434,6 +434,7 @@ t . Ice Ring
       tokens: ['ice_ring'],
     },
   },
+
 /* //////////////////////////////////////////////////////////////////////////////
 Volcanic Oasis
 
@@ -512,11 +513,12 @@ t . Fire Emblem
   {
     id: 'dragon',
     name: 'Dragon',
+    hp: 280,
     str: 80,
     ref: 80,
     acc: 80,
     con: 80,
-    flow: 90,
+    flow: 80,
     level: 115,
     prizes: {
       exp: 750,
@@ -535,11 +537,12 @@ t . Fire Emblem
   {
     id: 'shiny_dragon',
     name: 'Shiny Dragon',
-    str: 100,
-    ref: 100,
-    acc: 100,
-    con: 100,
-    flow: 100,
+    hp: 335,
+    str: 90,
+    ref: 90,
+    acc: 90,
+    con: 90,
+    flow: 90,
     level: 135,
     prizes: {
       exp: 1300,
@@ -559,11 +562,12 @@ t . Dynamo
   {
     id: 'lowly_solder',
     name: 'Lowly Solder',
-    str: 90,
-    ref: 70,
-    acc: 90,
-    con: 70,
-    flow: 90,
+    hp: 310,
+    str: 75,
+    ref: 85,
+    acc: 75,
+    con: 85,
+    flow: 80,
     level: 115,
     prizes: {
       exp: 130,
@@ -574,11 +578,12 @@ t . Dynamo
   {
     id: 'pysthon',
     name: 'Pysthon',
-    str: 90,
-    ref: 100,
-    acc: 90,
-    con: 100,
-    flow: 105,
+    hp: 380,
+    str: 85,
+    ref: 75,
+    acc: 85,
+    con: 75,
+    flow: 80,
     level: 130,
     prizes: {
       exp: 150,
@@ -590,11 +595,12 @@ t . Dynamo
   {
     id: 'sprocketeer',
     name: 'Sprocketeer',
-    str: 115,
-    ref: 115,
-    acc: 115,
-    con: 115,
-    flow: 120,
+    hp: 430,
+    str: 95,
+    ref: 80,
+    acc: 100,
+    con: 90,
+    flow: 90,
     level: 155,
     prizes: {
       exp: 170,
@@ -606,11 +612,12 @@ t . Dynamo
   {
     id: 'grate_knight',
     name: 'Grate Knight',
-    str: 130,
-    ref: 130,
-    acc: 130,
-    con: 130,
-    flow: 130,
+    hp: 480,
+    str: 105,
+    ref: 100,
+    acc: 105,
+    con: 100,
+    flow: 100,
     level: 180,
     prizes: {
       exp: 200,
@@ -622,11 +629,12 @@ t . Dynamo
   {
     id: 'king_gear',
     name: 'King Gear',
-    str: 145,
-    ref: 145,
-    acc: 145,
-    con: 145,
-    flow: 145,
+    hp: 550,
+    str: 120,
+    ref: 115,
+    acc: 120,
+    con: 115,
+    flow: 105,
     level: 200,
     prizes: {
       exp: 2000,
@@ -634,89 +642,95 @@ t . Dynamo
       tokens: ['dynamo'],
     },
   },
+
+/* #<{(|//////////////////////////////////////////////////////////////////////////////
+Deeps Below
+
+w . Tentacle Whip, Plague Staff
+s . Golem, Unholy
+t . Pandora's Box Shard
+
+*/
+  {
+    id: 'colossal_spider',
+    name: 'Colossal Spider',
+    hp: 525,
+    str: 110,
+    ref: 120,
+    acc: 110,
+    con: 120,
+    flow: 95,
+    level: 195,
+    prizes: {
+      exp: 230,
+      items: ['Spider Leg'],
+      tokens: ['pandoras_box'],
+    },
+  },
+  {
+    id: 'urork',
+    name: 'Urork',
+    hp: 575,
+    str: 120,
+    ref: 115,
+    acc: 120,
+    con: 110,
+    flow: 95,
+    level: 210,
+    prizes: {
+      exp: 255,
+      items: ['Shattered blade'],
+      tokens: ['pandoras_box'],
+    },
+  },
+  {
+    id: 'golem',
+    name: 'Golem',
+    hp: 625,
+    str: 130,
+    ref: 120,
+    acc: 130,
+    con: 120,
+    flow: 105,
+    level: 225,
+    prizes: {
+      exp: 275,
+      items: ['Golems blood'],
+      equips: ['golem'],
+      tokens: ['pandoras_box'],
+    },
+  },
+  {
+    id: 'kraken',
+    name: 'Kraken',
+    hp: 675,
+    str: 140,
+    ref: 135,
+    acc: 140,
+    con: 135,
+    flow: 115,
+    level: 250,
+    prizes: {
+      exp: 300,
+      items: ['Dark ink'],
+      equips: ['tentacle_whip'],
+      tokens: ['pandoras_box'],
+    },
+  },
+  {
+    id: 'death',
+    name: 'Death',
+    hp: 750,
+    str: 155,
+    ref: 150,
+    acc: 155,
+    con: 150,
+    flow: 120,
+    level: 300,
+    prizes: {
+      exp: 3000,
+      equips: ['unholy', 'grim_scythe'],
+      tokens: ['pandoras_box'],
+    },
+  },
 ]
-// #<{(|//////////////////////////////////////////////////////////////////////////////
-// Deeps Below
-//
-// w . Plague Staff
-// s . Unholy
-// t . Pandora's Box Shard
-//
-// |)}>#
-//   {
-//     id: 'colossal_spider',
-//     name: 'Colossal Spider',
-//     str: 0,
-//     ref: 0,
-//     acc: 0,
-//     con: 0,
-//     flow: 0,
-//     prizes: {
-//       exp: 0,
-//       items: ['?'],
-//       equips: ['?'],
-//       tokens: ['?'],
-//     },
-//   },
-//   {
-//     id: 'urork',
-//     name: 'Urork',
-//     str: 0,
-//     ref: 0,
-//     acc: 0,
-//     con: 0,
-//     flow: 0,
-//     prizes: {
-//       exp: 0,
-//       items: ['?'],
-//       equips: ['?'],
-//       tokens: ['?'],
-//     },
-//   },
-//   {
-//     id: 'golem',
-//     name: 'Golem',
-//     str: 0,
-//     ref: 0,
-//     acc: 0,
-//     con: 0,
-//     flow: 0,
-//     prizes: {
-//       exp: 0,
-//       items: ['?'],
-//       equips: ['?'],
-//       tokens: ['?'],
-//     },
-//   },
-//   {
-//     id: 'kraken',
-//     name: 'Kraken',
-//     str: 0,
-//     ref: 0,
-//     acc: 0,
-//     con: 0,
-//     flow: 0,
-//     prizes: {
-//       exp: 0,
-//       items: ['?'],
-//       equips: ['?'],
-//       tokens: ['?'],
-//     },
-//   },
-//   {
-//     id: 'death',
-//     name: 'Death',
-//     stance: 'death',
-//     str: 100,
-//     ref: 100,
-//     acc: 100,
-//     con: 100,
-//     flow: 100,
-//     prizes: {
-//       exp: 100,
-//       items: ['?'],
-//       equips: ['?'],
-//       tokens: ['?'],
-//     },
-//   },
-// ]
